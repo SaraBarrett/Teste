@@ -15,6 +15,8 @@
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     @else
+        <p>Paula Berto</p>
+
         <style>
             /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
             *,
@@ -1211,8 +1213,11 @@
 </head>
 
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
+
+    <p>Olá, eu sou a Paula Berto</p>
     <h1>O Marcos merece 20</h1>
     <h5>Olá eu sou a Sara</h5>
+
     <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
         <img id="background" class="absolute -left-20 top-0 max-w-[877px]"
             src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" />
